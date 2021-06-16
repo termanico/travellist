@@ -4,13 +4,12 @@
     xmlns:vbm="sap.ui.vbm" displayBlock="true">
 
     <VBox>
-
-        <!-- HBox class="">
-        <Text text="The bookings were confirmed on" class="sapUiTinyMarginEnd"/>
-        <macros:Field readOnly="true" metaPath="CreatedAt" id="custom-flightdate"/>
-        <Text text="by" class="sapUiTinyMarginBeginEnd"/>
-        <macros:Field readOnly="true" metaPath="AgencyID" id="custom-airline"/>  
-    </HBox  -->
+        <HBox class="">
+            <Text text="The bookings were confirmed on" class="sapUiTinyMarginEnd"/>
+            <macros:Field readOnly="true" metaPath="CreatedAt" id="custom-flightdate"/>
+            <Text text="by" class="sapUiTinyMarginBeginEnd"/>
+            <macros:Field readOnly="true" metaPath="AgencyID" id="custom-airline"/>
+        </HBox>
 
         <vbm:AnalyticMap width="100%"
             xmlns:l="sap.ui.layout" height="600px" initialPosition="-47.48339103742949; 48.70365903454684;0" initialZoom="2" class="sapUiMediumMarginTop">
