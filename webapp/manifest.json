@@ -114,7 +114,8 @@
                                         "route": "TravelObjectPage"
                                     }
                                 }
-                            }
+                            },
+                            "initialLoad": "Enabled"
                         }
                     },
                     "controlAggregation": "beginColumnPages",
