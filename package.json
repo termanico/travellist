@@ -21,18 +21,21 @@
 		"start-mock": "fiori run --config ./ui5-mock.yaml --open 'test/flpSandbox.html#travellist-tile'"
 	},
 	"devDependencies": {
-		"@ui5/cli": "^2.10.4",
+		"@ui5/cli": "^2.11.1",
 		"@ui5/fs": "^2.0.6",
 		"@ui5/logger": "^2.0.1",
 		"@sap/ux-ui5-tooling": "1",
 		"rimraf": "3.0.2",
 		"@sap/ux-specification": "latest",
-		"@sap/ux-ui5-fe-mockserver-middleware": "1.1.4"
+		"@sap/ux-ui5-fe-mockserver-middleware": "1.2.1"
 	},
 	"ui5": {
 		"dependencies": [
 			"@sap/ux-ui5-tooling",
 			"@sap/ux-ui5-fe-mockserver-middleware"
 		]
+	},
+	"dependencies": {
+		"npm-check-updates": "^11.6.0"
 	}
 }
