@@ -34,6 +34,21 @@
         "sourceTemplate": {
             "id": "ui5template.fiorielements.v4.lrop",
             "version": "1.0.0"
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "sap-fe-demo-travellist-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Travel",
+                    "action": "manage",
+                    "title": "Travel Management",
+                    "subTitle": "",
+                    "icon": ""
+                }
+            }
         }
     },
     "sap.ui": {
